@@ -1,5 +1,5 @@
 User Management API Documentation
-📚 Table of Contents
+Table of Contents
 
 1. Overview
 
@@ -44,7 +44,7 @@ Key	Value
 Content-Type	application/json
 Authorization	Bearer <token>
 3. Endpoints
-🟢 GET /api/users
+GET /api/users
 
 Description:
 Retrieve a list of users.
@@ -83,7 +83,7 @@ Code	Meaning
 200	OK – Request successful
 404	Not Found – Invalid page number
 500	Server Error – Internal failure
-🟡 POST /api/users
+POST /api/users
 
 Description:
 Create a new user in the system.
@@ -117,7 +117,7 @@ Code	Meaning
 201	Created successfully
 400	Bad Request – Missing fields
 500	Server Error – Internal issue
-🔵 PUT /api/users/{id}
+PUT /api/users/{id}
 
 Description:
 Update existing user information by ID.
@@ -189,5 +189,6 @@ Pagination is supported in the GET /api/users endpoint.
 Data created or updated using ReqRes is mock data (temporary).
 
 Each endpoint is designed for testing and learning API documentation.
+
 
 ✅ End of Documentation
